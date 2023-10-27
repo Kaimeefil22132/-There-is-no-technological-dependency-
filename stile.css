@@ -1,0 +1,41 @@
+body {
+    font-family: Arial,  sans-serif; /* Семейство шрифтов */
+    font-size: 24px; /* Размер основного шрифта в <p></p>  */
+    background-color: 4156782; /* Цвет фона веб-страницы */
+    color: #333333; /* Цвет основного текста */ 
+}
+
+h1 {
+    font-size: 35px; /* Размер шрифта в пунктах */
+    font-family: italic, serif; /* Семейство шрифтов */
+    animation: anim1 3s infinite;
+
+}
+
+h2 {
+    color: #0000ff; /* Цвет заголовка */
+    font-size: 30px; /* Размер шрифта в пунктах */
+    font-family: italic, serif; /* Семейство шрифтов */
+}
+
+p {
+    color: #ee0000; /* Цвет заголовка */
+    font-size: 20px; /* Размер шрифта в пунктах */
+    font-family: italic, serif; /* Семейство шрифтов */
+}
+
+
+@keyframes anim1 {
+    0% {
+      color: #0000ff;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
